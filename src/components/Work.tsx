@@ -3,26 +3,28 @@ import "./styles/Work.css";
 import WorkImage from "./WorkImage";
 import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
+const baseUrl = import.meta.env.BASE_URL;
+
 const projects = [
   {
     title: "LangTalk",
     category: "Language Learning App (App Store Release)",
     tools: "SwiftUI, Navigation Flows, UX Improvements, Bug Fixing",
-    image: "/images/langtalk_store.png",
+    image: `${baseUrl}images/langtalk_store.png`,
     link: "https://apps.apple.com/in/app/langtalk-learn-languages/id6478437989",
   },
   {
     title: "SmartCash",
     category: "Fintech iOS App (App Store Release)",
     tools: "SwiftUI/UIKit, MVVM, API Integration, Payments",
-    image: "/images/smartcash_store.png",
+    image: `${baseUrl}images/smartcash_store.png`,
     link: "https://apps.apple.com/in/app/smartcash-psb/id1598558834",
   },
   {
     title: "SmartGen",
     category: "AI Energy Tracker (App Store Release)",
     tools: "Swift, UIKit, State Management, Performance Tuning",
-    image: "/images/smartgen_store.webp",
+    image: `${baseUrl}images/smartgen_store.webp`,
     link: "https://apps.apple.com/in/app/smartgen-ai-energy-tracker/id6736756705",
   },
 ];
