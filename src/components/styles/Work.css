@@ -30,8 +30,8 @@
 .carousel-track-container {
   overflow: hidden;
   width: 100%;
-  border-top: 1px solid #363636;
-  border-bottom: 1px solid #363636;
+  border-top: 1px solid var(--borderColor);
+  border-bottom: 1px solid var(--borderColor);
 }
 
 .carousel-track {
@@ -83,7 +83,7 @@
 
 .carousel-category {
   font-weight: 200;
-  color: #adacac;
+  color: var(--textMuted);
   margin: 0;
   font-size: 16px;
 }
@@ -102,7 +102,7 @@
 
 .carousel-tools p {
   font-weight: 200;
-  color: #adacac;
+  color: var(--textMuted);
   margin: 6px 0 0;
   font-size: 15px;
 }
@@ -120,9 +120,9 @@
   top: 50%;
   transform: translateY(-50%);
   z-index: 10;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  color: #eae5ec;
+  background: var(--surfaceGlass);
+  border: 1px solid var(--borderColor);
+  color: var(--textPrimary);
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -136,10 +136,10 @@
 }
 
 .carousel-arrow:hover {
-  background: rgba(94, 234, 212, 0.15);
+  background: var(--surfaceGlassStrong);
   border-color: var(--accentColor);
   color: var(--accentColor);
-  box-shadow: 0 0 20px rgba(94, 234, 212, 0.15);
+  box-shadow: 0 0 20px var(--accentGlow);
 }
 
 .carousel-arrow-left {
@@ -162,7 +162,7 @@
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid var(--borderColor);
   background: transparent;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -171,13 +171,13 @@
 
 .carousel-dot:hover {
   border-color: var(--accentColor);
-  background: rgba(94, 234, 212, 0.2);
+  background: var(--surfaceGlassStrong);
 }
 
 .carousel-dot-active {
   background: var(--accentColor);
   border-color: var(--accentColor);
-  box-shadow: 0 0 8px rgba(94, 234, 212, 0.4);
+  box-shadow: 0 0 8px var(--accentGlow);
 }
 
 /* ── Work Image (reused) ── */
@@ -203,8 +203,8 @@
   justify-content: center;
   align-items: center;
   font-size: 25px;
-  box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5),
-    inset 0px 0px 10px 0px #393939;
+  box-shadow: 0px 0px 10px 0px rgba(214, 179, 106, 0.32),
+    inset 0px 0px 10px 0px #2a1d0f;
   transition: 0.3s;
   opacity: 0;
 }

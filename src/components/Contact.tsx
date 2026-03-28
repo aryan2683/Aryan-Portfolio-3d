@@ -10,16 +10,6 @@ const Contact = () => {
           <div className="contact-box">
             <h4>Connect</h4>
             <p>
-              <a
-                href="https://www.linkedin.com/in/aryan-singhal-1215b32aa"
-                target="_blank"
-                rel="noreferrer"
-                data-cursor="disable"
-              >
-                LinkedIn — aryan-singhal-1215b32aa
-              </a>
-            </p>
-            <p>
               <a href="mailto:aryansinghal126@gmail.com" data-cursor="disable">
                 Email — aryansinghal126@gmail.com
               </a>
